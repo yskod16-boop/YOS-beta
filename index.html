@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YOS Emulator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>YOS Emulator v0.2</h1></header>
+
+<div class="container">
+  <div id="editor">
+    <p>Komutları yaz ve <b>Deneme</b> tuşuna bas:</p>
+    <textarea id="code">çağır os
+çağır btl
+çağır mem
+çağır sch
+çağır fsy
+çağır dvr
+çağır syc
+çağır shl
+çağır gui
+çağır lib
+çağır ns
+çağır pl</textarea>
+    <button id="runBtn">Deneme</button>
+  </div>
+
+  <div id="emulator">
+    <div id="screen"></div>
+    <div id="bar">YOS Terminal</div>
+  </div>
+</div>
+
+<script src="emulator.js"></script>
+</body>
+</html>
